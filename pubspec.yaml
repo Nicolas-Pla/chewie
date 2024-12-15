@@ -12,8 +12,29 @@ dependencies:
   flutter:
     sdk: flutter
   provider: ^6.1.2
-  video_player: ^2.9.1
   wakelock_plus: ^1.2.8
+  video_player:
+    git:
+      url: https://github.com/vanlooverenkoen/flutter-packages.git
+      path: packages/video_player/video_player
+      ref: "feature/#60048-ios-picture-in-picture"
+
+dependency_overrides:
+  video_player_android:
+    git:
+      url: https://github.com/vanlooverenkoen/flutter-packages.git
+      path: packages/video_player/video_player_android
+      ref: "feature/#60048-ios-picture-in-picture"
+  video_player_avfoundation:
+    git:
+      url: https://github.com/vanlooverenkoen/flutter-packages.git
+      path: packages/video_player/video_player_avfoundation
+      ref: "feature/#60048-ios-picture-in-picture"
+  video_player_platform_interface:
+    git:
+      url: https://github.com/vanlooverenkoen/flutter-packages.git
+      path: packages/video_player/video_player_platform_interface
+      ref: "feature/#60048-ios-picture-in-picture"
 
 dev_dependencies:
   flutter_test:
