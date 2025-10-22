@@ -18,26 +18,26 @@ dependencies:
     git:
       url: https://github.com/vanlooverenkoen/flutter-packages.git
       path: packages/video_player/video_player
-      ref: "feature/#60048-ios-picture-in-picture"
+      ref: "feature/pip_fix"
 
 dependency_overrides:
   video_player_android:
     git:
       url: https://github.com/vanlooverenkoen/flutter-packages.git
       path: packages/video_player/video_player_android
-      ref: "feature/#60048-ios-picture-in-picture"
+      ref: "feature/pip_fix"
 
   video_player_avfoundation:
     git:
       url: https://github.com/vanlooverenkoen/flutter-packages.git
       path: packages/video_player/video_player_avfoundation
-      ref: "feature/#60048-ios-picture-in-picture"
+      ref: "feature/pip_fix"
 
   video_player_platform_interface:
     git:
         url: https://github.com/vanlooverenkoen/flutter-packages.git
         path: packages/video_player/video_player_platform_interface
-        ref: "feature/#60048-ios-picture-in-picture"
+        ref: "feature/pip_fix"
 
 dev_dependencies:
   flutter_test:
